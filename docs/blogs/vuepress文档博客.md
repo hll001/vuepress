@@ -31,7 +31,7 @@
 
 2. 添加`首页`，`导航栏`，`侧边栏`等主题配置，参考官网主题中[默认主题配置](https://vuepress.vuejs.org/zh/theme/default-theme-config.html)
 
-3. 添加`图标`等好的作品配置参考——[vuepress-reco](https://github.com/vuepress-reco/vuepress-reco.github.io/blob/gh-pages-source/.vuepress/config.js)。具体项目线上效果——[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
+3. 添加`图标`等好的配置作品参考——[vuepress-reco](https://github.com/vuepress-reco/vuepress-reco.github.io/blob/gh-pages-source/.vuepress/config.js)。具体项目线上效果——[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
 
 ## 手动上线部署
 
@@ -61,7 +61,10 @@
 
 ## 自动化部署方案
 
- 1. `blog_src` 项目根目录下创建deploy.sh，进行自动化部署(不用我去手动部署了)，自动部署脚本内容：
+ 1. `blog_src` 项目根目录下创建deploy.sh，进行自动化部署(不用我去手动部署了)。
+ 2. `blog_src` 项目根目录下终端运行 `sh deploy.sh xxx部署描述`完成自动部署。
+
+自动部署脚本内容如下
 
  ```sh
 #!/usr/bin/env sh
