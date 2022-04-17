@@ -119,11 +119,11 @@
   
   `git fetch`
   
-  >获取远程仓库中最新的历史记录在本地，但是该内容会在自动建立的FETCH_HEAD的分支中。注意此时的内容并没有合并到本地只是从远程拉取到本地了，同git merge FETCH_HEAD。
+  >获取远程仓库中最新的历史记录在本地，但是该内容会在自动建立的FETCH_HEAD的分支中。注意此时的内容并没有合并到本地只是从远程拉取到本地了。
 
   `git merge`
 
-  >合并内容到当前分支。执行在`git fetch`之后，从远端仓库提取数据并将FETCH_HEAD分支合并到当前分支。
+  >合并内容到当前分支。执行在`git fetch`之后，从远端仓库提取数据并将FETCH_HEAD分支合并到当前分支，同git merge FETCH_HEAD。
 
 - git pull
   

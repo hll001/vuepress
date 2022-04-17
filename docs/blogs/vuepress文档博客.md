@@ -6,6 +6,7 @@
 - VuePress 由vue驱动的极简静态网站生成器，熟悉vue所以用了。
 - 喜欢把学习的内容记录成静态文章，不需要花里胡哨的样式内容。
 - 主题内容适配手机。
+- 博客源文件内容参考 [GitHub](https://github.com/hll001/vuepress)，实际效果访问 [笔记](https://hll001.github.io/)
 
 ## 构建本地博客
 
