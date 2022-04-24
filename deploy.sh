@@ -1,5 +1,12 @@
 #!/usr/bin/env sh
 
+if test $# -eq 0
+then
+	echo "请输入部署描述"
+	echo "如： $0 xxx部署描述..."
+	exit 0
+fi
+
 # 确保脚本抛出遇到的错误
 set -e
 
